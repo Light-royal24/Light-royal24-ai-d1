@@ -10,7 +10,7 @@ import Demo from './audio/Demo';
 import Emoji from './emoji/emoji';
 import EmojiPicker from 'emoji-picker-react'; 
 import { ToastContainer, toast } from 'react-toastify'; 
-
+import apikey from './api-Key';
 
 function App() {
   const date = new Date().toDateString();
@@ -26,7 +26,7 @@ function App() {
   });
   
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: `${apikey}`,
   dangerouslyAllowBrowser: true ,
 });
 
