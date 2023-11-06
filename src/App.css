@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(14, 46, 14);
+    padding: 15px 0;
+    color: lightgray;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.headerContainer {
+    display: flex;
+    width: 94%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerName {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.headerIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.headerIcons p {
+    width: 3px;
+    height: 3px;
+    background: rgb(246, 242, 242);
+}
+
+.bottomHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgb(14, 46, 14);
+    color: lightgray;
+    z-index: 999;
+}
+
+.bottomHeaderContainer {
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.bottomHeaderContainer div {
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+.bottomHeaderInput {
+    display: flex;
+    width: 75%;
+    border-radius: 20px;
+    background-color: white;
+    height: 90%;
+    align-items: end;
+}
+
+.bottomHeaderInput input {
+    width: 100%;
+    border-radius: inherit;
+    padding: 6px 10px;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    color: darkgray;
+    height: 100%;
+}
+
+.bottomHeaderInput p {
+    padding: 2px 7px 2px 2px;
+    cursor: pointer;
+}
+
+.bottomHeader div {
+    cursor: pointer;
+}
+
+.bottomHeaderSend {
+    display: flex;
+    width: 10%;
+    border-radius: 50%;
+    justify-content: center;
+    height: 2.3rem;
+    align-items: end;
+}
+
+.bottomHeaderSendBtn {
+    color: rgb(32, 185, 136);
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-size: 100%;
+    cursor: pointer;
+    padding-right: 7px;
+}
+
+.bottomHeaderSendBtn img {
+    color: blue;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgb(77, 77, 242);
+}
+
+.recorder img {
+    background: blue;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(36, 36, 36);
+}
+
+.messageContainer {
+    min-height: 95vh;
+    width: 94%;
+    padding-top: 3.4rem;
+}
+
+#messageTime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    padding-top: 20px;
+}
+
+#messageTime p{
+    background-color: rgb(52, 51, 51);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.messageInfo {
+    padding-top: 80px;
+    color: rgb(233, 171, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.messageInfo p {
+    width: 80%;
+    background-color: rgb(30, 30, 30);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.messageWelcome {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.messageWelcome p {
+    background-color: rgb(63, 60, 60);
+    display: flex;
+    width: fit-content;
+    padding: 10px;
+    color: rgb(233, 228, 228);
+    border-radius: 10px;
+}
+
+.messagesContainer div {
+    margin-bottom: 10px;
+}
+
+.messagesContainer div p {
+    max-width: 70%;
+    background-color: rgb(63, 60, 60);
+    display: flex;
+    width: fit-content;
+    padding: 10px;
+    color: rgb(233, 228, 228);
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.messagesContainer .own {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.messagesContainer .own p {
+    background-color: rgb(84, 25, 223);
+}
+
+.button {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    height: 60px;
+    width: 60%;
+    border-radius: 15px;
+  }
+
+  .Demo {
+    margin-bottom: 50px;
+  }
+
+  .emoji {
+    width: 100%;
+    /* margin-bottom: 0; */
+    position: fixed;
+    bottom: 0;
+  }
+
+  .emoji-picker {
+    width: 100%;
+  }
+
+  .emoji-picker .EmojiPicker {
+    width: 100%;
+  }
